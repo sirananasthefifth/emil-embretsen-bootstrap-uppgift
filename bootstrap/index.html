@@ -15,12 +15,18 @@
     <h1 class="text-center white bold header">Emils Bootstrap-uppgift</h1>
     <!--Underrubrik-->
     <h2 class="text-center blue bold sub-header">Klicka nedan för att se all text</h2>
+
+    <!--Under finns ett accordion. Den är strukturerad på det sättet att hela mitt accordion finns inom diven med classen m-4.-->
         <div class="m-4">
+            <!--Sedan har vi min accordion div-->
             <div class="accordion " id="myAccordion ">
+                <!--Efter det har vi accordion item-->
                 <div class="accordion-item w-50 p-3 text-center">
+                    <!--En sub-header som också är en knapp-->
                     <h2 class="sub-header">
                         <button type="button" class="accordion-button collapsed sub-header" data-bs-toggle="collapse" data-bs-target="#collapseOne">1. HTML?</button>									
                     </h2>
+                    <!--Och sedan en div som collapsar med en paragraph inom sig-->
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
                         <div class="card-body">
                             <p>HTML (HyperText Markup Language) är standard markup-språket för hemsidor. Det är inte ett programmeringsspråk, utan bestämmer strukturen av allt på din hemsida. För att kunna göra mer med en hemsida integrerar man ofta CSS och Javascript.
